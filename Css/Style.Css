@@ -862,12 +862,8 @@ border-color: #447A8F;
 }
 
 
-/* =========================================================
-   TABLET  (<= 991px)
-   ========================================================= */
 @media (max-width: 991.98px) {
 
-  /* ---------- Navbar ---------- */
   .navbar-brand { 
     width: auto; 
     height: auto; 
@@ -883,7 +879,6 @@ border-color: #447A8F;
     margin-right: 0;
  }
 
-  /* ---------- Hero ---------- */
   .Hero { 
     height: auto;
     min-height: 480px;
@@ -905,7 +900,6 @@ border-color: #447A8F;
     display: none;
  }
 
-  /* ---------- Stats ---------- */
   .our-collaps { 
     height: auto; 
     padding: 50px 0;
@@ -924,7 +918,6 @@ border-color: #447A8F;
   
   .item p, .item-2 p { font-size: 18px; }
 
-  /* ---------- Categories ---------- */
  
   .categories { 
     padding: 60px 0 50px;
@@ -952,7 +945,6 @@ border-color: #447A8F;
       scale(calc(1 - var(--abs) * 0.1));
   }
 
-  /* ---------- About ---------- */
   .About { 
     height: auto;
      padding: 60px 0; 
@@ -1007,7 +999,6 @@ border-color: #447A8F;
     left: -10%;
  }
 
-  /* ---------- Supply chain ---------- */
   .our-supply { 
     height: auto; 
     padding: 80px 20px; 
@@ -1063,7 +1054,6 @@ border-color: #447A8F;
     margin-top: 60px;
  }
 
-  /* ---------- Contact ---------- */
   .contact-us { 
     padding: 60px 0; 
     }
@@ -1102,8 +1092,7 @@ border-color: #447A8F;
     .Pic img { 
     height: auto; }
 
-  /* ---------- Footer ---------- */
-  .ft { 
+    .ft { 
     flex-wrap: wrap; gap: 40px 30px; }
   
   .logo { 
@@ -1126,16 +1115,11 @@ border-color: #447A8F;
 }
 
 
-/* =========================================================
-   MOBILE  (<= 575px)
-   ========================================================= */
 @media (max-width: 575.98px) {
 
-  /* ---------- Navbar ---------- */
   .navbar-brand { margin-left: 10px; }
   .navbar-brand img { max-width: 130px; }
 
-  /* ---------- Hero ---------- */
   .Hero { 
     min-height: 460px; 
     background-position: 65% center; 
@@ -1161,7 +1145,6 @@ border-color: #447A8F;
   
   .btn-2, .btn-3 { width: 100%; margin-left: 0; }
 
-  /* ---------- Stats ---------- */
   .col-card { 
     width: 100%; 
     justify-content: flex-start; 
@@ -1178,7 +1161,6 @@ border-color: #447A8F;
 
   .col-card i { font-size: 38px; }
 
-  /* ---------- Categories ---------- */
   .categories .head h2 { 
     font-size: 1.9rem; 
     }
@@ -1218,7 +1200,6 @@ border-color: #447A8F;
     padding: 8px 22px; 
     }
 
-  /* ---------- About ---------- */
   .About-left h2 { 
     font-size: 30px; 
     }
@@ -1238,7 +1219,6 @@ border-color: #447A8F;
     padding: 12px 28px; 
     }
 
-  /* ---------- Supply chain ---------- */
   .our-supply { 
     padding: 60px 15px; 
     }
@@ -1269,7 +1249,6 @@ border-color: #447A8F;
     font-size: 14px; 
     }
 
-  /* ---------- Contact ---------- */
   .us { 
     padding: 0 20px; 
     }
@@ -1293,7 +1272,6 @@ border-color: #447A8F;
     border-radius: 16px; 
     }
 
-  /* ---------- Footer ---------- */
     .ft { 
         flex-direction: column; 
         gap: 30px; 
